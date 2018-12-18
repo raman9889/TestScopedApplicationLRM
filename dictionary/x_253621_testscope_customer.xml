@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Customer" max_length="40" name="x_253621_testscope_customer" type="collection">
+        <element label="Comments" max_length="40" name="comments" type="string"/>
         <element label="Customer DOB" max_length="40" name="customer_dob" type="glide_date"/>
         <element label="Customer ID" mandatory="true" max_length="40" name="customer_id" type="string"/>
         <element label="Customer Name" mandatory="true" max_length="40" name="customer_name" type="string"/>
@@ -8,5 +9,6 @@
         <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
             <choice/>
         </element>
+        <element label="Migration ID" max_length="40" name="migration_id" type="string"/>
     </element>
 </database>
