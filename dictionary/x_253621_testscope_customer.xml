@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Customer" max_length="40" name="x_253621_testscope_customer" type="collection">
+        <element label="Customer DOB" max_length="40" name="customer_dob" type="glide_date"/>
         <element label="Customer ID" mandatory="true" max_length="40" name="customer_id" type="string"/>
         <element label="Customer Name" mandatory="true" max_length="40" name="customer_name" type="string"/>
         <element label="Description" max_length="40" name="description" type="string"/>
