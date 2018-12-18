@@ -5,5 +5,8 @@
         <element label="Customer ID" mandatory="true" max_length="40" name="customer_id" type="string"/>
         <element label="Customer Name" mandatory="true" max_length="40" name="customer_name" type="string"/>
         <element label="Description" max_length="40" name="description" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice/>
+        </element>
     </element>
 </database>
